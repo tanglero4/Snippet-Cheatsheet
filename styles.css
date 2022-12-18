@@ -1,0 +1,57 @@
+:root{
+--main:rgb(58, 206, 209);
+    --dark:rgb(0, 0, 0);
+    --focus:rgb(69, 233, 105)
+}
+body{
+    background-color: var(--dark);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: var(--main);
+    font-size: 60px;
+    padding-top: 14px;
+}
+p{
+    color: var(--focus);
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    line-height: 1.5;
+}
+h1,p {
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    flex: 30%;
+    border: 2px dashed var(--focus);
+    margin: 25px;
+    padding: 20px;
+}
+
+.card-title{
+    font-size: 30px;
+    color: var(--main);
+    background-color: var(--dark);
+    border: 2px solid var(--focus);
+    border-radius:8px;
+    padding: 10px;
+    position: relative;
+    top: -40px;
+}
+pre{
+border-radius: 8px;
+background: linear-gradient(rgba(58, 206, 209)0%, 
+rgba(12, 176, 110, 0.6)100% )
+ 
+}
+footer{
+    text-align: center;
+    color: var(--focus);
+    font-size: 24px;
+    padding-bottom: 14px;
+}
